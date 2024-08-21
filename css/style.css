@@ -18,6 +18,10 @@
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: "Urbanist", sans-serif;
+    color: var(--prime-color);
+}
+p{
+    color: var(--text-color);
 }
 ul, li {
     list-style: none;
@@ -47,7 +51,7 @@ body{
     font-weight: 600;
     line-height: 22px;
     text-transform: uppercase;
-    color: var(--text-color);
+    color: var(--sub-head-color);
     padding-bottom: 20px;
 }
 .section-head h2 {
@@ -94,7 +98,9 @@ body{
     margin-left: 35px;
     font-size:18px;
     font-weight: 500;
-    color: var(--btn-hover);
+}
+.heading .menu ul li a{
+    color: var(--prime-color);
 }
 .heading .menu ul li:hover{
     text-decoration: underline;
@@ -104,9 +110,9 @@ body{
     width: 160px;
     height: 52px;
     background-color: var(--body-color);
-    color: var(--btn-hover);
+    color: var(--prime-color);
     border-radius: 50px;
-    border: 1px solid var(--btn-hover);
+    border: 1px solid var(--prime-color);
     font-size:17px;
     font-weight: 500;
     line-height: 28px;
@@ -117,6 +123,7 @@ body{
 .heading button:hover{
     background-color: var(--btn-hover);
     color: var(--head-dark-bg);
+    border: none;
 }
 /* header css end */
 
@@ -213,9 +220,223 @@ body{
 }
 /* services section css end */
 
+/* common css start */
+#video{
+    background-color: var(--section-bg) ;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+#video .video-src{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.video-content{
+    width: 800px;
+    margin: 80px auto 0;
+    text-align: center;
+}
+.process{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.process .items{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    padding: 0 50px 25px 50px;
+    position: relative;
+}
+.process .item-01::after {
+    content : url(../images/__before.png);
+    right: -60px;
+    position: absolute;
+    top: 20px;
+}
+.process .item-02::after {
+    content : url(../images/__before\ \(1\).png);
+    right: -60px;
+    position: absolute;
+    top: 20px;
+}
+/* common css end */
+
+/* common css start */
+#project{
+    background-color: var(--section-bg) ;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.project-content{
+    width: 850px;
+    margin: 80px auto 50px;
+    text-align: center;
+}
+.project-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.project-item .item{
+    width: 403px;
+}
+.project-item .item img{
+    width: 100%;
+}
+.project-item .item h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0 5px;
+}
+.project-item .item p{
+    font-size: 17px;
+}
+
+.project-btn{
+    padding-top: 50px;
+    text-align: center;
+}
+/* common css end */
+
+
+#client{
+    background-color: var(--section-bg) ;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+#client .client-content {
+    display: flex;
+    justify-content: space-between;
+}
+.client-content .client-info{
+    width: 300px;
+}
+.client-content .client-info  h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: var(--sub-head-color);
+}
+.client-content .client-info  h2{
+    font-size: 42px;
+    font-weight: 600;
+    padding: 15px 0 10px;
+}
+.client-logo{
+    width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 90px;
+}
+.client-logo img{
+    max-width: 130px;
+}
+
+/* common css start */
+#diffrent{
+    background-color: var(--section-bg) ;
+    margin-top: 25px;
+    border-radius: 20px;
+
+}
+#diffrent .diffrent-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diffrent-img{
+    max-width: 610px;
+}
+.diffrent-content .diffrent-info{
+    width: 600px;
+}
+
+.diffrent-content .diffrent-info  h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: var(--sub-head-color);
+}
+.diffrent-content .diffrent-info  h2{
+    font-size: 42px;
+    font-weight: 600;
+    padding: 15px 0 10px;
+}
+.diffrent-info .diffrent-items{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.diffrent-items .item-tab{
+    width: 230px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.diffrent-items .item-tab{
+    width: 230px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
 
 
+
+
+
+
+
+
+
+/* common css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
 /* common css start */
 /* common css end */
 /* common css start */
